@@ -10824,3 +10824,33 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+body {
+  background-color: #FCF9F3;
+}
+
+.container.box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+}
+
+.container.box div {
+  background-color: #ffffff;
+  height: auto;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+}
+
+.container.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  padding: 10px;
+}
+
+.container.grid div {
+  text-align: center;
+}
