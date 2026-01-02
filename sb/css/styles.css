@@ -10845,8 +10845,8 @@ textarea.form-control-lg {
 .container.grid {
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 20px;
-  padding: 10px;
+  gap: 5px;
+  padding: 0px;
 }
 
 .container.grid div {
