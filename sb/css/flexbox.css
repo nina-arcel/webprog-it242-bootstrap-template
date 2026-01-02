@@ -2,14 +2,14 @@ body {
   background-color: #FCF9F3;
 }
 
-.container box {
+.container.box {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   background-color: #ffffff;
 }
 
-.container box div {
+.container.box div {
   background-color: #ffffff;
   height: auto;
   width: auto;
