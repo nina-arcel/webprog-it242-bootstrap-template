@@ -10825,10 +10825,7 @@ textarea.form-control-lg {
   }
 }
 
-body {
-  background-color: #FCF9F3;
-}
-
+/*flexbox*/
 .container.box {
   display: flex;
   justify-content: center;
@@ -10844,6 +10841,7 @@ body {
   padding: 10px;
 }
 
+/*Grid*/
 .container.grid {
   display: grid;
   grid-template-columns: auto auto auto;
