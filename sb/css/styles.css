@@ -10841,24 +10841,13 @@ textarea.form-control-lg {
   padding: 10px;
 }
 
-/*Grid*/
+/* Grid */
 .container.grid {
   display: grid;
-  grid-template-columns: 1fr; /* one column = vertical */
-  gap: 10px;
+  grid-template-columns: repeat(2, auto);
   padding: 0;
 }
 
 .container.grid div {
   text-align: center;
-}
-
-.labels {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.lead {
-  font-size: 20px;
-  font-weight: bold;
 }
