@@ -10844,11 +10844,21 @@ textarea.form-control-lg {
 /*Grid*/
 .container.grid {
   display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 5px;
-  padding: 0px;
+  grid-template-columns: 1fr; /* one column = vertical */
+  gap: 10px;
+  padding: 0;
 }
 
 .container.grid div {
   text-align: center;
+}
+
+.labels {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.lead {
+  font-size: 20px;
+  font-weight: bold;
 }
