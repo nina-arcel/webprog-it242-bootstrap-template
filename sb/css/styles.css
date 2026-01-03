@@ -10841,11 +10841,32 @@ textarea.form-control-lg {
   padding: 10px;
 }
 
-/* Grid */
+/* Base Grid */
 .container.grid {
   display: grid;
-  grid-template-columns: repeat(2, auto);
   padding: 0;
+}
+
+.hobbies {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.images-2 {
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+}
+
+.designs {
+  grid-template-columns: 1fr;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.images-4 {
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  gap: 15px;
 }
 
 .container.grid div {
