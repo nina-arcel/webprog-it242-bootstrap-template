@@ -1,0 +1,59 @@
+/* Base Grid */
+.container.grid {
+  display: grid;
+  padding: 0;
+}
+
+.hobbies {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.images-2 {
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+}
+
+.designs {
+  grid-template-columns: 1fr;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.images-4 {
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  gap: 15px;
+}
+
+.container.grid div {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+
+  /* Stack hobbies vertically */
+  .hobbies {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  /* Images stack vertically */
+  .images-2,
+  .images-4 {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  /* Reduce image size for mobile */
+  .container.grid img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+  }
+
+  /* Center text nicely */
+  .design-text {
+    padding: 0 10px;
+  }
+}
