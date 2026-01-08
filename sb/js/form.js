@@ -4,7 +4,8 @@ const app = Vue.createApp({
         userName: '',
         userComment: '',
         isYes: false,
-        responses:       }
+        responses: []
+      }
     },
     methods: {
       addEntry(){
