@@ -23,7 +23,7 @@
       margin-bottom: 15px;
     }
 
-    button {
+    button.form {
       background-color: rgba(251, 255, 0, 0.349);
       color: white;
       border: none;
@@ -32,7 +32,7 @@
       cursor: pointer;
     }
 
-    button:hover { background-color: #8cff969d; }
+    button.form:hover { background-color: #8cff969d; }
 
     ul { list-style-type: none; padding: 0; }
     
