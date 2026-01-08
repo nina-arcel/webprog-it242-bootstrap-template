@@ -1,40 +1,23 @@
 /* Main grid layout */
+
 .hero-grid {
   display: grid;
   background-color: #f8e1ed;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  min-height: 50vh;
-  padding: 40px;
   gap: 40px;
-}
-
-/* Image */
-.hero-image img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Text container */
-.hero-text {
-  text-align: left;
+  min-height: 40vh;
+  padding: 40px 0; 
 }
 
 /* COLRv1 Font */
 .hello {
-  font-family: 'Nabla', cursive;
+  font-family: 'Kalnia Glaze', Bold 700;
   font-size: 7rem;
   margin: 0;
+  line-height: 1;
 }
 
-/* Normal sans-serif text */
-.subtitle {
-  font-size: 1.25rem;
-  color: #000;
-  margin-top: 10px;
-}
-
-/* 📱 Mobile responsive */
 @media (max-width: 768px) {
   .hero-grid {
     grid-template-columns: 1fr;
