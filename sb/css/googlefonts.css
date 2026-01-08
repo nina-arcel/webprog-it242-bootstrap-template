@@ -3,9 +3,11 @@
 .apple-text {
   font-family: 'Homemade Apple', static;
   font-size: 3rem;
+  text-align: center;
 }
 
 .Cal-text {
   font-family: 'Cal Sans', Regular 400;
   font-size: 2rem;
+  text-align: center;
 }
