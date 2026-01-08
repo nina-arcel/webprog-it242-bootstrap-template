@@ -99,19 +99,107 @@
             </div>
         </div>
 
-        <div class="container box">
-                <div><img src="assets/Family2.jpg" alt="Family" width="300" height="200" /></div>
-                <div><img src="assets/Family.jpg" alt="Family" width="200" height="200" /></div>
-                <div><img src="assets/Concert.jpg" alt="Concert" width="200" height="200" /></div>
-                <div><img src="assets/Youth.jpg" alt="Youth" width="300" height="200" /></div>
-                <div><img src="assets/PAW2.jpg" alt="PAW" width="330" height="200" /></div>
-                <div><img src="assets/DG.jpg" alt="DG" width="200" height="200" /></div>
-                <div><img src="assets/Friend.jpg" alt="Friend" width="200" height="200" /></div>
-                <div><img src="assets/Friend2.png" alt="Friend" width="200" height="200" /></div>
-                <div><img src="assets/CollegeFriends.JPG" alt="CollegeFriends" width="300" height="200" /></div>
-                <div><img src="assets/PAW.jpg" alt="PAW" width="200" height="200" /></div>
-                <div><img src="assets/CE.jpg" alt="CE" width="310" height="200" /></div>
-        </div>
+        <h2 style="text-align:center">Niña's Photo Gallery</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 11</div>
+    <img src="assets/Family2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 11</div>
+    <img src="assets/Family.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 11</div>
+    <img src="assets/Concert.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 11</div>
+    <img src="assets/Youth.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 11</div>
+    <img src="assets/PAW2.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 11</div>
+    <img src="assets/DG.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">7 / 11</div>
+    <img src="assets/Friend.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">8 / 11</div>
+    <img src="assets/Friend2.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">9 / 11</div>
+    <img src="assets/CollegeFriends.JPG" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">10 / 11</div>
+    <img src="assets/PAW.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">11 / 11</div>
+    <img src="assets/CE.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="assets/Family2.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/Family.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/Concert.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/Youth.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/PAW2.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="assets/DG.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    <div class="column">
+      <img class="demo cursor" src="assets/Friend.jpg" style="width:100%" onclick="currentSlide(7)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/Friend2.png" style="width:100%" onclick="currentSlide(8)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/CollegeFriends.JPG" style="width:100%" onclick="currentSlide(9)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/PAW.jpg" style="width:100%" onclick="currentSlide(10)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/CE.jpg" style="width:100%" onclick="currentSlide(11)" alt="Nature and sunrise">
+    </div>    
+    </div>
+  </div>
+</div>
 
         <div class="container box">
                 <div><img src="assets/banner.png" alt="daisy" width="1300" height="150" /></div>
@@ -121,5 +209,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+
+        <script src="js/galleryscript.js"></script>
     </body>
 </html>
