@@ -2,7 +2,7 @@
 * { box-sizing: border-box; }
 img { vertical-align: middle; }
 
-.containergallery { position: relative; }
+.container { position: relative; }
 .mySlides { display: none; }
 .cursor { cursor: pointer; }
 
@@ -32,7 +32,7 @@ img { vertical-align: middle; }
   top: 0;
 }
 
-.caption-containergallery {
+.caption-container {
   text-align: center;
   background-color: #f8e1ed;
   padding: 2px 16px;
