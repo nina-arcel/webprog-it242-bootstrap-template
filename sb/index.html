@@ -245,7 +245,7 @@
     <p>
       <label>
         <input type="checkbox" v-model="isYes"> 
-        Would you recommend us? (Yes)
+        Do you like the website? (Yes)
       </label>
     </p>
 
@@ -259,7 +259,7 @@
     <ul>
       <li v-for="entry in responses">
         <strong>{{ entry.name }}</strong> 
-        <span v-if="entry.recommended" class="yes-badge"> (Recommended ✅)</span>
+        <span v-if="entry.recommended" class="yes-badge"> (Yes ✅)</span>
         <br>
         <small>{{ entry.comment }}</small>
       </li>
