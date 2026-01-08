@@ -1,0 +1,57 @@
+/* Page base */
+body {
+  margin: 0;
+  background-color: #f8e1ed;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Main grid layout */
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+  gap: 40px;
+}
+
+/* Image */
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Text container */
+.hero-text {
+  text-align: left;
+}
+
+/* COLRv1 Font */
+.hello {
+  font-family: 'Nabla', cursive;
+  font-size: 6rem;
+  margin: 0;
+}
+
+/* Normal sans-serif text */
+.subtitle {
+  font-size: 1.1rem;
+  color: #000;
+  margin-top: 10px;
+}
+
+/* 📱 Mobile responsive */
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .hello {
+    font-size: 4.5rem;
+  }
+}
