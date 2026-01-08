@@ -1,16 +1,10 @@
-/* Page base */
-body {
-  margin: 0;
-  background-color: #f8e1ed;
-  font-family: 'Inter', sans-serif;
-}
-
 /* Main grid layout */
 .hero-grid {
   display: grid;
+  background-color: #f8e1ed;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  min-height: 100vh;
+  min-height: 50vh;
   padding: 40px;
   gap: 40px;
 }
@@ -29,13 +23,13 @@ body {
 /* COLRv1 Font */
 .hello {
   font-family: 'Nabla', cursive;
-  font-size: 6rem;
+  font-size: 7rem;
   margin: 0;
 }
 
 /* Normal sans-serif text */
 .subtitle {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   color: #000;
   margin-top: 10px;
 }
