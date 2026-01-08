@@ -1,9 +1,8 @@
 
-body { font-family: Arial; margin: 0; }
 * { box-sizing: border-box; }
 img { vertical-align: middle; }
 
-.container { position: relative; }
+.containergallery { position: relative; }
 .mySlides { display: none; }
 .cursor { cursor: pointer; }
 
@@ -33,7 +32,7 @@ img { vertical-align: middle; }
   top: 0;
 }
 
-.caption-container {
+.caption-containergallery {
   text-align: center;
   background-color: #f8e1ed;
   padding: 2px 16px;
