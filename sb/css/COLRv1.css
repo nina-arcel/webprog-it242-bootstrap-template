@@ -1,23 +1,29 @@
-/* Main grid layout */
 
-.hero-grid {
-  display: grid;
+.hero-section {
   background-color: #f8e1ed;
+}
+
+.hero-section .hero-grid {
+  display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 40px;
   min-height: 40vh;
-  padding: 40px 0; 
+  padding: 40px 0;
 }
 
-/* COLRv1 Font */
-.hello {
-  font-family: 'Kalnia Glaze', Bold 700;
-  font-size: 7rem;
+/* Text */
+.hero-section .hero-text {
+  text-align: left;
+}
+
+/* COLRv1 heading */
+.hero-section .hello {
+  font-family: 'Kalnia Glaze', serif;
+  font-size: 5.5rem;
   margin: 0;
   line-height: 1;
 }
-
 @media (max-width: 768px) {
   .hero-grid {
     grid-template-columns: 1fr;
