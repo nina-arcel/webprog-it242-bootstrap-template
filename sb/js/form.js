@@ -4,8 +4,7 @@ const app = Vue.createApp({
         userName: '',
         userComment: '',
         isYes: false,
-        responses: [] // This replaces the shopping list
-      }
+        responses:       }
     },
     methods: {
       addEntry(){
@@ -16,7 +15,6 @@ const app = Vue.createApp({
         }
         this.responses.push(entry)
         
-        // Reset the form
         this.userName = ''
         this.userComment = ''
         this.isYes = false
