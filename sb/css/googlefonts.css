@@ -2,6 +2,10 @@
 
 .apple-text {
   font-family: 'Homemade Apple', static;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
+.Cal-text {
+  font-family: 'Cal Sans', Regular 400;
+  font-size: 2rem;
+}
