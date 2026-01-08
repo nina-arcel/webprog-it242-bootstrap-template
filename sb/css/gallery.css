@@ -1,49 +1,45 @@
-/* --- Main Image Container Fix --- */
+/* --- 1. Fix Main Image Container to Landscape --- */
+.mySlides {
+  /* This ensures the 'slide' area always has a landscape background */
+  background-color: #000; /* Or choose a color that matches your site, like #f2f2f2 */
+  height: 500px;         /* Set your desired landscape height */
+  width: 100%;           /* Full width of the gallery */
+  display: none;         /* Keep hidden by default for JS */
+  text-align: center;    /* Centers the image horizontally if it's narrow */
+}
+
 .mySlides img {
   width: 100%;
-  /* Adjust this height to match your desired landscape size */
-  height: 500px; 
-  /* This prevents distortion; 'cover' crops slightly, 'contain' shows the whole image with bars */
-  object-fit: cover; 
+  height: 500px;         /* Must match the .mySlides height */
+  
+  /* 'contain' ensures the whole photo is visible without cropping. 
+     Square/Portrait photos will have spaces on the sides. */
+  object-fit: contain; 
+  
   vertical-align: middle;
 }
 
-/* --- Thumbnail Scrollbar Fix --- */
-.row {
-  display: flex;
-  overflow-x: auto; /* Enables horizontal scrolling */
-  white-space: nowrap;
+/* --- 2. Fix Thumbnail Row (rowgallery) --- */
+.rowgallery {
+  display: flex !important; 
+  flex-wrap: nowrap;        
+  overflow-x: auto;         /* The scrollbar you requested */
+  overflow-y: hidden;
   padding: 10px 0;
-  gap: 10px; /* Adds space between thumbnails */
+  gap: 10px;
+  width: 100%;
+  background-color: white; 
 }
 
-/* Remove the float and width from .column */
+/* --- 3. Fix Thumbnail Columns --- */
 .column {
-  flex: 0 0 auto; /* Prevents thumbnails from shrinking */
-  width: 150px;   /* Set a fixed width for your thumbnails */
+  flex: 0 0 auto;           
+  width: 120px;             /* Fixed width for thumbnails */
 }
 
-/* Optional: Style the scrollbar to make it look cleaner */
-.row::-webkit-scrollbar {
-  height: 8px;
-}
-
-.row::-webkit-scrollbar-thumb {
-  background: #ccc;
-  border-radius: 10px;
-}
-
-.row::-webkit-scrollbar-thumb:hover {
-  background: #f8e1ed;
-}
-
-/* Keep your existing .demo and .active styles below */
-.demo {
-  opacity: 0.6;
-  width: 100%; /* Ensure thumbnail fills the column */
+.column img {
+  width: 100%;
+  height: 80px;             /* Keeps thumbnails uniform */
+  object-fit: cover;        /* Thumbnails look better cropped to fill */
   cursor: pointer;
-}
-
-.active, .demo:hover {
-  opacity: 1;
 }
