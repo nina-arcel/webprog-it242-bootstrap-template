@@ -1,4 +1,7 @@
 
+.container {
+  text-align: center; /* This centers both the H1 and the P */
+}
 
 .apple-text {
   font-family: 'Homemade Apple', static;
@@ -6,16 +9,8 @@
   text-align: center;
 }
 
-.apple-text .p {
-  text-align: center;
-}
-
 .Cal-text {
   font-family: 'Cal Sans', Regular 400;
   font-size: 2rem;
-  text-align: center;
-}
-
-.Cal-text .p {
   text-align: center;
 }
