@@ -4,6 +4,10 @@
   max-width: 400px; 
   background-color: #f8e1ed;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
     input[type="text"], textarea {
